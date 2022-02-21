@@ -1,0 +1,63 @@
+.destaque--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.destaque--info {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.destaque--buttons {
+    margin-top: 15px;
+
+}
+
+.destaque--watchButton,
+.destaque--myListButton {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+.destaque--watchButton:hover,
+.destaque--myListButton:hover {
+    opacity: 0.7;
+}
+
+.destaque--watchButton {
+    background-color: #FFF;
+    color: #000;
+}
+.destaque--myListButton {
+    background-color: #333;
+    color: #fff;
+}
+
+.destaque--genres {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999
+}
+
+@media (max-Width: 760px){
+    .destaque {
+        height: 90vh;
+    }
+    .destaque--description {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .destaque--genres {
+        font-size: 14px;
+    }
+}
